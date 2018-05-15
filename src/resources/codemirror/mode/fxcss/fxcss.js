@@ -454,41 +454,41 @@ CodeMirror.defineMode("fxcss", function(config, parserConfig) {
   ], mediaValueKeywords = keySet(mediaValueKeywords_);
 
   var propertyKeywords_ = [
-    "-fx-alignment", "-fx-alternative-column", "-fx-alternative-row", "-fx-animated",
-    "-fx-arc-height", "-fx-arc-width", "-fx-arrows-visible", "-fx-background-color", 
-    "-fx-background-fills", "-fx-background-image", "-fx-background-images",
-    "-fx-background-insets", "-fx-background-position", "-fx-background-radius",
-    "-fx-background-repeat", "-fx-background-size", "-fx-bar-gap", "-fx-blend-mode", 
-    "-fx-block-increment", "-fx-border-color", "-fx-border-image", "-fx-border-insets", 
-    "-fx-border-style", "-fx-border-width", "-fx-border-radius,", "-fx-category-gap", 
-    "-fx-cell-size", "-fx-clockwise", "-fx-collapsible", "-fx-color-label", 
-    "-fx-column-halignment", "-fx-content-display", "-fx-context-menu", 
-    "-fx-create-symbols", "-fx-cursor", "-fx-cursor", "-fx-display-caret", 
-    "-fx-effect", "-fx-ellipsis-string", "-fx-fill", "-fx-fill-height", 
-    "-fx-fill-width", "-fx-fill", "-fx-fit-to", "-fx-focus-traversable", "-fx-font", 
-    "-fx-font", "-fx-font-family", "-fx-font-scale", "-fx-font-size", 
-    "-fx-font-smoothing", "-fx-font-style", "-fx-font-weight", "-fx-font", 
-    "-fx-graphic", "-fx-graphic-text", "-fx-grid-lines", "-fx-halignment", 
-    "-fx-hbar-policy", "-fx-hgap", "-fx-highlight-fill", "-fx-highlight-text", 
-    "-fx-horizontal-grid", "-fx-horizontal-zero", "-fx-image", "-fx-image-borders", 
-    "-fx-indent", "-fx-indeterminate-bar", "-fx-label-line", "-fx-label-padding", 
-    "-fx-legend-side", "-fx-legend-visible", "-fx-major-tick", "-fx-max-height", 
-    "-fx-max-page", "-fx-max-width", "-fx-min-height", "-fx-min-width", "-fx-minor-tick", 
-    "-fx-opacity", "-fx-orientation", "-fx-padding", "-fx-page-information", 
-    "-fx-pannable", "-fx-pie-label", "-fx-position-shape", "-fx-pref-columns", 
-    "-fx-pref-height", "-fx-pref-rows", "-fx-pref-tile", "-fx-pref-width", 
-    "-fx-progress-color", "-fx-prompt-text", "-fx-rotate", "-fx-row-valignment", 
-    "-fx-scale-shape", "-fx-scale-x", "-fx-scale-y", "-fx-scale-z", "-fx-shape", 
-    "-fx-show-tick", "-fx-side Side", "-fx-size", "-fx-skin", "-fx-smooth", 
-    "-fx-snap-to", "-fx-spacing", "-fx-start-angle", "-fx-strikethrough", 
-    "-fx-stroke", "-fx-stroke-borders", "-fx-stroke-dash", "-fx-stroke-line", 
-    "-fx-stroke-miter", "-fx-stroke-type", "-fx-stroke-width", "-fx-stroke", 
-    "-fx-tab-max", "-fx-tab-min", "-fx-text-alignment", "-fx-text-fill", 
-    "-fx-text-origin", "-fx-text-overrun", "-fx-tick-label", "-fx-tick-length", 
-    "-fx-tile-alignment", "-fx-title-side", "-fx-tooltip-visible", "-fx-translate-x",
-    "-fx-translate-y", "-fx-translate-z", "-fx-underline", "-fx-unit-increment", 
-    "-fx-use-system", "-fx-valignment", "-fx-vbar-policy", "-fx-vertical-grid", 
-    "-fx-vertical-zero", "-fx-vgap", "-fx-wrap-text", "-fx-base", "-fx-accent"
+  "fx-alignment", "fx-alternative-column", "fx-alternative-row", "fx-animated",
+    "fx-arc-height", "fx-arc-width", "fx-arrows-visible", "fx-background-color", 
+    "fx-background-fills", "fx-background-image", "fx-background-images",
+    "fx-background-insets", "fx-background-position", "fx-background-radius",
+    "fx-background-repeat", "fx-background-size", "fx-bar-gap", "fx-blend-mode", 
+    "fx-block-increment", "fx-border-color", "fx-border-image", "fx-border-insets", 
+    "fx-border-style", "fx-border-width", "fx-border-radius,", "fx-category-gap", 
+    "fx-cell-size", "fx-clockwise", "fx-collapsible", "fx-color-label", 
+    "fx-column-halignment", "fx-content-display", "fx-context-menu", 
+    "fx-create-symbols", "fx-cursor", "fx-cursor", "fx-display-caret", 
+    "fx-effect", "fx-ellipsis-string", "fx-fill", "fx-fill-height", 
+    "fx-fill-width", "fx-fill", "fx-fit-to", "fx-focus-traversable", "fx-font", 
+    "fx-font", "fx-font-family", "fx-font-scale", "fx-font-size", 
+    "fx-font-smoothing", "fx-font-style", "fx-font-weight", "-fx-font", 
+    "fx-graphic", "fx-graphic-text", "fx-grid-lines", "fx-halignment", 
+    "fx-hbar-policy", "fx-hgap", "fx-highlight-fill", "fx-highlight-text", 
+    "fx-horizontal-grid", "fx-horizontal-zero", "fx-image", "fx-image-borders", 
+    "fx-indent", "fx-indeterminate-bar", "fx-label-line", "fx-label-padding", 
+    "fx-legend-side", "fx-legend-visible", "fx-major-tick", "-fx-max-height", 
+    "fx-max-page", "fx-max-width", "fx-min-height", "fx-min-width", "fx-minor-tick", 
+    "fx-opacity", "fx-orientation", "fx-padding", "fx-page-information", 
+    "fx-pannable", "fx-pie-label", "fx-position-shape", "fx-pref-columns", 
+    "fx-pref-height", "fx-pref-rows", "fx-pref-tile", "fx-pref-width", 
+    "fx-progress-color", "fx-prompt-text", "-fx-rotate", "-fx-row-valignment", 
+    "fx-scale-shape", "fx-scale-x", "fx-scale-y", "fx-scale-z", "fx-shape", 
+    "fx-show-tick", "fx-side Side", "fx-size", "fx-skin", "fx-smooth", 
+    "fx-snap-to", "fx-spacing", "fx-start-angle", "fx-strikethrough", 
+    "fx-stroke", "fx-stroke-borders", "fx-stroke-dash", "fx-stroke-line", 
+    "fx-stroke-miter", "fx-stroke-type", "fx-stroke-width", "fx-stroke", 
+    "fx-tab-max", "fx-tab-min", "fx-text-alignment", "fx-text-fill", 
+    "fx-text-origin", "fx-text-overrun", "fx-tick-label", "fx-tick-length", 
+    "fx-tile-alignment", "fx-title-side", "fx-tooltip-visible", "fx-translate-x",
+    "fx-translate-y", "fx-translate-z", "fx-underline", "fx-unit-increment", 
+    "fx-use-system", "fx-valignment", "fx-vbar-policy", "fx-vertical-grid", 
+    "fx-vertical-zero", "fx-vgap", "fx-wrap-text", "fx-base", "fx-accent"
   ], propertyKeywords = keySet(propertyKeywords_);
 
   var nonStandardPropertyKeywords_ = [
@@ -500,7 +500,7 @@ CodeMirror.defineMode("fxcss", function(config, parserConfig) {
   ], nonStandardPropertyKeywords = keySet(nonStandardPropertyKeywords_);
 
   var fontProperties_ = [
-    "-fx-font", "-fx-font-family", "-fx-font-size", "-fx-font-weight", "-fx-font-style"
+    "fx-font", "fx-font-family", "fx-font-size", "fx-font-weight", "fx-font-style"
   ], fontProperties = keySet(fontProperties_);
 
   var counterDescriptors_ = [

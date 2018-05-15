@@ -8,11 +8,6 @@ body {
     overflow-y: hidden;
 }
 
-.CodeMirror-vscrollbar {
-    background: #222!important;
-}
+.CodeMirror { height: 100%; width: 100%; }
 
-textarea {
-    overflow: auto;
-    resize:none;
-}
+.CodeMirror-vscrollbar { background: #222!important; }

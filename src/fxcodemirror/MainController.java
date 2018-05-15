@@ -59,7 +59,6 @@ public class MainController implements Initializable {
      * @param newCode
      */
     public void setEditorCode(String newCode) {
-        String id = "codeText";
         webEngine.executeScript("editor.setValue('" + newCode + "' );");
     }
 
