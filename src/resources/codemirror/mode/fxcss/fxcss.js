@@ -42,24 +42,26 @@ CodeMirror.defineMode("fxcss", function(config, parserConfig) {
       var result = tokenHooks[ch](stream, state);
       if (result !== false) return result;
     }
-    if (ch == "@") {
+    if (ch === "@") {
       stream.eatWhile(/[\w\\\-]/);
       return ret("def", stream.current());
-    } else if (ch == "=" || (ch == "~" || ch == "|") && stream.eat("=")) {
+    } else if (ch === "=" || (ch === "~" || ch === "|") && stream.eat("=")) {
       return ret(null, "compare");
-    } else if (ch == "\"" || ch == "'") {
+    } else if (ch === "\"" || ch === "'") {
       state.tokenize = tokenString(ch);
       return state.tokenize(stream, state);
-    } else if (ch == "#") {
+    } else if (ch === "#") {
       stream.eatWhile(/[\w\\\-]/);
       return ret("atom", "hash");
-    } else if (ch == "!") {
+    } else if (ch === "!") {
       stream.match(/^\s*\w*/);
       return ret("keyword", "important");
-    } else if (/\d/.test(ch) || ch == "." && stream.eat(/\d/)) {
+    } else if (/\d/.test(ch) || ch === "." && stream.eat(/\d/)) {
       stream.eatWhile(/[\w.%]/);
       return ret("number", "unit");
-    } else if (ch === "^") { // changed "-"
+    } else if (ch === "-") { // changed "-" /[\d.]/
+        stream.match(/[fx-]/);
+         return ret("property", "word");
       if (/[\d.]/.test(stream.peek())) {
         stream.eatWhile(/[\w.%]/);
         return ret("number", "unit");
@@ -73,13 +75,13 @@ CodeMirror.defineMode("fxcss", function(config, parserConfig) {
       }
     } else if (/[,+>*\/]/.test(ch)) {
       return ret(null, "select-op");
-    } else if (ch == "." && stream.match(/^-?[_a-z][_a-z0-9-]*/i)) {
+    } else if (ch === "." && stream.match(/^-?[_a-z][_a-z0-9-]*/i)) {
       return ret("qualifier", "qualifier");
     } else if (/[:;{}\[\]\(\)]/.test(ch)) {
       return ret(null, ch);
-    } else if (((ch == "u" || ch == "U") && stream.match(/rl(-prefix)?\(/i)) ||
-               ((ch == "d" || ch == "D") && stream.match("omain(", true, true)) ||
-               ((ch == "r" || ch == "R") && stream.match("egexp(", true, true))) {
+    } else if (((ch === "u" || ch === "U") && stream.match(/rl(-prefix)?\(/i)) ||
+               ((ch === "d" || ch === "D") && stream.match("omain(", true, true)) ||
+               ((ch === "r" || ch === "R") && stream.match("egexp(", true, true))) {
       stream.backUp(1);
       state.tokenize = tokenParenthesized;
       return ret("property", "word");

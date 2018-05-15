@@ -29,7 +29,7 @@ public class MainController implements Initializable {
             "-fx-selection-bar-text: ladder(\\r" +
             "    -fx-background,\\r" +
             "    -fx-light-text-color 50%,\\r" +
-            "    -fx-mid-text-color 51%\\r" +
+            "    -fx-mid-text-color -51%\\r" +
             ");";
 
     @Override
