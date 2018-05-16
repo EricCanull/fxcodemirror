@@ -1,4 +1,15 @@
 # Created by .ignore support plugin (hsz.mobi)
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*/bin
+*bin
+*.bin
+*bin
 
 # IntelliJ project files 
 *.iml
@@ -6,7 +17,9 @@
 *.ipr
 .idea/
 .idea
+\.idea/
 *.iml
+
 out
 gen
 .gitignore
@@ -21,12 +34,11 @@ target/
 
 # NetBeans specific
 nbproject/private/
+nbproject/
 build/
 nbbuild/
 dist/
 nbdist/
-
-
 
 # OS
 .DS_Store
@@ -39,7 +51,3 @@ pom.xml.tag
 logs/statistics/
 
 logs/
-
-\.gradle/2\.10/taskArtifacts/
-
-RUNNING_PID
