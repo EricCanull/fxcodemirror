@@ -1,1 +1,45 @@
-/dist/
+# Created by .ignore support plugin (hsz.mobi)
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/
+.idea
+*.iml
+out
+gen
+.gitignore
+src/test/
+target/generated-sources/
+target/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+
+
+# OS
+.DS_Store
+
+# Misc
+*.swp
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
+logs/statistics/
+
+logs/
+
+\.gradle/2\.10/taskArtifacts/
+
+RUNNING_PID
