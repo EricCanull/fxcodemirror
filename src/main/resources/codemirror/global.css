@@ -1,0 +1,13 @@
+html, body {
+    background: #171a1d!important;
+     color: #c2c2c3!important;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.CodeMirror { height: 100%; width: 100%; }
+
+.CodeMirror-vscrollbar { background: #222!important; }
