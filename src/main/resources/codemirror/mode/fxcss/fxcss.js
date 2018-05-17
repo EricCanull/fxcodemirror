@@ -454,7 +454,7 @@ CodeMirror.defineMode("fxcss", function(config, parserConfig) {
   ], mediaValueKeywords = keySet(mediaValueKeywords_);
 
   var propertyKeywords_ = [
-  "fx-alignment", "fx-alternative-column", "fx-alternative-row", "fx-animated",
+    "fx-alignment", "fx-alternative-column", "fx-alternative-row", "fx-animated",
     "fx-arc-height", "fx-arc-width", "fx-arrows-visible", "fx-background-color", 
     "fx-background-fills", "fx-background-image", "fx-background-images",
     "fx-background-insets", "fx-background-position", "fx-background-radius",
@@ -488,7 +488,8 @@ CodeMirror.defineMode("fxcss", function(config, parserConfig) {
     "fx-tile-alignment", "fx-title-side", "fx-tooltip-visible", "fx-translate-x",
     "fx-translate-y", "fx-translate-z", "fx-underline", "fx-unit-increment", 
     "fx-use-system", "fx-valignment", "fx-vbar-policy", "fx-vertical-grid", 
-    "fx-vertical-zero", "fx-vgap", "fx-wrap-text", "fx-base", "fx-accent"
+    "fx-vertical-zero", "fx-vgap", "fx-wrap-text", "fx-base", "fx-accent",
+    "-fx-background"
   ], propertyKeywords = keySet(propertyKeywords_);
 
   var nonStandardPropertyKeywords_ = [

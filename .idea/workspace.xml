@@ -2,345 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268ff0e3-9fc6-4a5c-bb6d-986e0596d0d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fxcodemirror/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxcodemirror/FXMLMainPanel.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/FXMLMainPanel.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxcodemirror/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/fxcodemirror/MainApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxcodemirror/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/fxcodemirror/MainController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxcodemirror/firebug-script.js" afterPath="$PROJECT_DIR$/src/main/resources/firebug/firebug-script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxcodemirror/main_panel.css" afterPath="$PROJECT_DIR$/src/main/java/fxcodemirror/main_panel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/AUTHORS" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/AUTHORS" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/LICENSE" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/README.md" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/comment/comment.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/comment/comment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/comment/continuecomment.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/comment/continuecomment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/dialog/dialog.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/dialog/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/dialog/dialog.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/dialog/dialog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/display/autorefresh.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/display/autorefresh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/display/fullscreen.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/display/fullscreen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/display/fullscreen.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/display/fullscreen.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/display/panel.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/display/panel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/display/placeholder.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/display/placeholder.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/display/rulers.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/display/rulers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/edit/closebrackets.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/edit/closebrackets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/edit/closetag.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/edit/closetag.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/edit/continuelist.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/edit/continuelist.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/edit/matchbrackets.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/edit/matchbrackets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/edit/matchtags.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/edit/matchtags.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/edit/trailingspace.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/edit/trailingspace.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/brace-fold.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/brace-fold.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/comment-fold.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/comment-fold.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/foldcode.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/foldcode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/foldgutter.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/foldgutter.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/foldgutter.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/foldgutter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/indent-fold.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/indent-fold.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/markdown-fold.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/markdown-fold.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/fold/xml-fold.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/fold/xml-fold.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/anyword-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/anyword-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/css-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/css-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/html-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/html-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/javascript-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/javascript-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/show-hint.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/show-hint.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/show-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/show-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/sql-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/sql-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/hint/xml-hint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/hint/xml-hint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/coffeescript-lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/coffeescript-lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/css-lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/css-lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/html-lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/html-lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/javascript-lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/javascript-lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/json-lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/json-lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/lint.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/lint.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/lint/yaml-lint.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/lint/yaml-lint.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/merge/merge.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/merge/merge.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/merge/merge.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/merge/merge.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/mode/loadmode.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/mode/loadmode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/mode/multiplex.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/mode/multiplex.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/mode/multiplex_test.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/mode/multiplex_test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/mode/overlay.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/mode/overlay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/mode/simple.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/mode/simple.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/runmode/colorize.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/runmode/colorize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/runmode/runmode-standalone.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/runmode/runmode-standalone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/runmode/runmode.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/runmode/runmode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/runmode/runmode.node.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/runmode/runmode.node.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/scroll/annotatescrollbar.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/scroll/annotatescrollbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/scroll/scrollpastend.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/scroll/scrollpastend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/scroll/simplescrollbars.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/scroll/simplescrollbars.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/scroll/simplescrollbars.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/scroll/simplescrollbars.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/search/jump-to-line.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/search/jump-to-line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/search/match-highlighter.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/search/match-highlighter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/search/matchesonscrollbar.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/search/matchesonscrollbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/search/matchesonscrollbar.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/search/matchesonscrollbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/search/search.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/search/search.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/search/searchcursor.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/search/searchcursor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/selection/active-line.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/selection/active-line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/selection/mark-selection.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/selection/mark-selection.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/selection/selection-pointer.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/selection/selection-pointer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/tern/tern.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/tern/tern.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/tern/tern.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/tern/tern.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/tern/worker.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/tern/worker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/addon/wrap/hardwrap.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/addon/wrap/hardwrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/global.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/global.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/keymap/emacs.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/keymap/emacs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/keymap/sublime.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/keymap/sublime.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/keymap/vim.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/keymap/vim.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/lib/codemirror.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/lib/codemirror.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/lib/codemirror.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/lib/codemirror.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/apl/apl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/apl/apl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/asciiarmor/asciiarmor.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/asciiarmor/asciiarmor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/asn.1/asn.1.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/asn.1/asn.1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/asterisk/asterisk.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/asterisk/asterisk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/brainfuck/brainfuck.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/brainfuck/brainfuck.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/clike/clike.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/clike/clike.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/clojure/clojure.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/clojure/clojure.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/cmake/cmake.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/cmake/cmake.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/cobol/cobol.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/cobol/cobol.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/coffeescript/coffeescript.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/coffeescript/coffeescript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/commonlisp/commonlisp.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/commonlisp/commonlisp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/crystal/crystal.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/crystal/crystal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/css/css.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/css/css.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/cypher/cypher.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/cypher/cypher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/d/d.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/d/d.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/dart/dart.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/dart/dart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/diff/diff.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/diff/diff.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/django/django.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/django/django.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/dockerfile/dockerfile.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/dockerfile/dockerfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/dtd/dtd.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/dtd/dtd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/dylan/dylan.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/dylan/dylan.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/ebnf/ebnf.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/ebnf/ebnf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/ecl/ecl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/ecl/ecl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/eiffel/eiffel.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/eiffel/eiffel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/elm/elm.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/elm/elm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/erlang/erlang.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/erlang/erlang.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/factor/factor.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/factor/factor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/fcl/fcl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/fcl/fcl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/forth/forth.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/forth/forth.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/fortran/fortran.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/fortran/fortran.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/fxcss/fxcss.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/fxcss/fxcss.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/gas/gas.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/gas/gas.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/gfm/gfm.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/gfm/gfm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/gherkin/gherkin.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/gherkin/gherkin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/go/go.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/go/go.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/groovy/groovy.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/groovy/groovy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/haml/haml.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/haml/haml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/handlebars/handlebars.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/handlebars/handlebars.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/haskell-literate/haskell-literate.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/haskell-literate/haskell-literate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/haskell/haskell.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/haskell/haskell.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/haxe/haxe.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/haxe/haxe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/htmlembedded/htmlembedded.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/htmlembedded/htmlembedded.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/htmlmixed/htmlmixed.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/http/http.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/http/http.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/idl/idl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/idl/idl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/javascript/javascript.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/javascript/javascript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/jinja2/jinja2.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/jinja2/jinja2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/jsx/jsx.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/jsx/jsx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/julia/julia.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/julia/julia.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/livescript/livescript.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/livescript/livescript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/lua/lua.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/lua/lua.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/markdown/markdown.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/markdown/markdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/mathematica/mathematica.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/mathematica/mathematica.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/mbox/mbox.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/mbox/mbox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/meta.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/meta.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/mirc/mirc.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/mirc/mirc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/mllike/mllike.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/mllike/mllike.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/modelica/modelica.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/modelica/modelica.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/mscgen/mscgen.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/mscgen/mscgen.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/mumps/mumps.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/mumps/mumps.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/nginx/nginx.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/nginx/nginx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/nsis/nsis.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/nsis/nsis.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/ntriples/ntriples.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/ntriples/ntriples.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/octave/octave.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/octave/octave.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/oz/oz.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/oz/oz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/pascal/pascal.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/pascal/pascal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/pegjs/pegjs.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/pegjs/pegjs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/perl/perl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/perl/perl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/php/php.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/php/php.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/pig/pig.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/pig/pig.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/powershell/powershell.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/powershell/powershell.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/properties/properties.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/properties/properties.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/protobuf/protobuf.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/protobuf/protobuf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/pug/pug.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/pug/pug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/puppet/puppet.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/puppet/puppet.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/python/python.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/python/python.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/q/q.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/q/q.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/r/r.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/r/r.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/rpm/changes/index.html" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/rpm/changes/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/rpm/rpm.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/rpm/rpm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/rst/rst.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/rst/rst.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/ruby/ruby.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/ruby/ruby.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/rust/rust.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/rust/rust.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/sas/sas.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/sas/sas.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/sass/sass.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/sass/sass.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/scheme/scheme.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/scheme/scheme.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/shell/shell.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/shell/shell.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/sieve/sieve.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/sieve/sieve.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/slim/slim.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/slim/slim.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/smalltalk/smalltalk.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/smalltalk/smalltalk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/smarty/smarty.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/smarty/smarty.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/solr/solr.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/solr/solr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/soy/soy.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/soy/soy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/sparql/sparql.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/sparql/sparql.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/spreadsheet/spreadsheet.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/spreadsheet/spreadsheet.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/sql/sql.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/sql/sql.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/stex/stex.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/stex/stex.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/stylus/stylus.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/stylus/stylus.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/swift/swift.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/swift/swift.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/tcl/tcl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/tcl/tcl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/textile/textile.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/textile/textile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/tiddlywiki/tiddlywiki.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/tiddlywiki/tiddlywiki.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/tiddlywiki/tiddlywiki.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/tiddlywiki/tiddlywiki.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/tiki/tiki.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/tiki/tiki.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/tiki/tiki.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/tiki/tiki.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/toml/toml.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/toml/toml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/tornado/tornado.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/tornado/tornado.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/troff/troff.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/troff/troff.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/ttcn-cfg/ttcn-cfg.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/ttcn-cfg/ttcn-cfg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/ttcn/ttcn.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/ttcn/ttcn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/turtle/turtle.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/turtle/turtle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/twig/twig.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/twig/twig.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/vb/vb.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/vb/vb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/vbscript/vbscript.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/vbscript/vbscript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/velocity/velocity.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/velocity/velocity.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/verilog/verilog.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/verilog/verilog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/vhdl/vhdl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/vhdl/vhdl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/vue/vue.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/vue/vue.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/webidl/webidl.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/webidl/webidl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/xml/xml.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/xml/xml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/xquery/xquery.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/xquery/xquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/yacas/yacas.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/yacas/yacas.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/yaml-frontmatter/yaml-frontmatter.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/yaml-frontmatter/yaml-frontmatter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/yaml/yaml.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/yaml/yaml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/mode/z80/z80.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/mode/z80/z80.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/package.json" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/rollup.config.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/rollup.config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/codemirror.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/codemirror.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/Display.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/Display.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/focus.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/focus.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/gutters.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/gutters.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/highlight_worker.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/highlight_worker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/line_numbers.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/line_numbers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/mode_state.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/mode_state.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/operations.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/operations.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/scroll_events.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/scroll_events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/scrollbars.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/scrollbars.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/scrolling.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/scrolling.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/selection.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/selection.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/update_display.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/update_display.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/update_line.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/update_line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/update_lines.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/update_lines.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/display/view_tracking.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/display/view_tracking.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/CodeMirror.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/CodeMirror.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/commands.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/commands.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/deleteNearSelection.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/deleteNearSelection.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/drop_events.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/drop_events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/fromTextArea.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/fromTextArea.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/global_events.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/global_events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/key_events.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/key_events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/legacy.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/legacy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/main.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/methods.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/methods.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/mouse_events.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/mouse_events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/options.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/options.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/edit/utils.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/edit/utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/ContentEditableInput.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/ContentEditableInput.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/TextareaInput.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/TextareaInput.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/indent.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/indent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/input.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/input.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/keymap.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/keymap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/keynames.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/keynames.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/input/movement.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/input/movement.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/line/highlight.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/line/highlight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/line/line_data.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/line/line_data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/line/pos.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/line/pos.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/line/saw_special_spans.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/line/saw_special_spans.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/line/spans.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/line/spans.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/line/utils_line.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/line/utils_line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/measurement/position_measurement.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/measurement/position_measurement.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/measurement/widgets.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/measurement/widgets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/Doc.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/Doc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/change_measurement.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/change_measurement.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/changes.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/changes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/chunk.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/chunk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/document_data.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/document_data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/history.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/history.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/line_widget.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/line_widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/mark_text.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/mark_text.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/selection.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/selection.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/model/selection_updates.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/model/selection_updates.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/modes.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/modes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/StringStream.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/StringStream.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/bidi.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/bidi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/browser.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/browser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/dom.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/dom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/event.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/event.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/feature_detection.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/feature_detection.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/misc.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/misc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/src/util/operation_group.js" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/src/util/operation_group.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/3024-day.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/3024-day.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/3024-night.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/3024-night.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/abcdef.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/abcdef.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/ambiance-mobile.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/ambiance-mobile.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/ambiance.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/ambiance.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/base16-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/base16-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/base16-light.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/base16-light.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/bespin.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/bespin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/blackboard.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/blackboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/cobalt.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/cobalt.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/colorforth.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/colorforth.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/dracula.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/dracula.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/duotone-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/duotone-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/duotone-light.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/duotone-light.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/eclipse.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/eclipse.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/elegant.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/elegant.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/erlang-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/erlang-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/gruvbox-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/gruvbox-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/gtk-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/gtk-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/hopscotch.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/hopscotch.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/icecoder.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/icecoder.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/idea.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/idea.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/isotope.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/isotope.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/lesser-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/lesser-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/liquibyte.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/liquibyte.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/lucario.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/lucario.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/material.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/material.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/mbo.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/mbo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/mdn-like.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/mdn-like.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/midnight.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/midnight.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/monokai.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/monokai.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/neat.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/neat.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/neo.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/neo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/night.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/night.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/oceanic-next.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/oceanic-next.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/panda-syntax.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/panda-syntax.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/paraiso-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/paraiso-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/paraiso-light.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/paraiso-light.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/pastel-on-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/pastel-on-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/railscasts.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/railscasts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/rubyblue.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/rubyblue.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/seti.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/seti.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/shadowfox.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/shadowfox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/solarized.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/solarized.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/ssms.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/ssms.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/the-matrix.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/the-matrix.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/tomorrow-night-bright.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/tomorrow-night-eighties.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/ttcn.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/ttcn.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/twilight.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/twilight.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/vibrant-ink.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/vibrant-ink.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/xq-dark.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/xq-dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/xq-light.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/xq-light.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/yeti.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/yeti.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/codemirror/theme/zenburn.css" afterPath="$PROJECT_DIR$/src/main/resources/codemirror/theme/zenburn.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/images/screenshot.png" afterPath="$PROJECT_DIR$/src/main/resources/images/screenshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/fxcodemirror/MainController.class" afterPath="$PROJECT_DIR$/build/classes/fxcodemirror/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="$PROJECT_DIR$/build/built-jar.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/resources/codemirror/mode/fxcss/fxcss.js" afterPath="$PROJECT_DIR$/build/classes/resources/codemirror/mode/fxcss/fxcss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -351,25 +14,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="firebug-script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/firebug/firebug-script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -394,26 +45,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FXMLMainPanel.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/FXMLMainPanel.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -446,6 +100,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/build/classes/main/resources/codemirror/node_modules" />
+    <handled-path value="$PROJECT_DIR$/src/main/resources/codemirror/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="84" />
@@ -467,6 +125,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -494,33 +156,18 @@
             </path>
             <path>
               <item name="fxcodemirror" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fxcodemirror" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fxcodemirror" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fxcodemirror" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fxcodemirror" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/firebug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -547,7 +194,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="Application.MainApp (1)">
+    <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.fxcodemirror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.fxcodemirror.MainApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fxcodemirror" />
+      <envs />
+    </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -647,9 +313,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainApp (1)" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainApp (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -669,42 +340,43 @@
       <option name="presentableId" value="Default" />
       <updated>1526425127646</updated>
       <workItem from="1526425129440" duration="3645000" />
+      <workItem from="1526445493290" duration="135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3645000" />
+    <option name="totallyTimeSpent" value="3780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="0" width="1836" height="1080" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23631285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,23 +390,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="720">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/FXMLMainPanel.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/codemirror/index.html">
@@ -745,29 +406,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/firebug/firebug-script.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/FXMLMainPanel.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/FXMLMainPanel.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/codemirror/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/firebug/firebug-script.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fxcodemirror/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
