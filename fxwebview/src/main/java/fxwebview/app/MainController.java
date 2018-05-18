@@ -6,17 +6,10 @@ package fxwebview.app;
  * and open the template in the editor.
  */
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Worker;
 import javafx.fxml.FXML;
@@ -41,7 +34,7 @@ public class MainController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         webEngine = webView.getEngine();
         webEngine.setOnAlert(this::alertWorker);
-        webEngine.load("file:///home/andje22/Documents/repos/fxcodemirror/codemirror/public_html/index.html");
+        webEngine.load(this.getClass().getResource("/codemirror/public_html/index.html").toExternalForm());
         webEngine.getLoadWorker().stateProperty().addListener(this::stateChangeListener);
     }
 
@@ -55,7 +48,7 @@ public class MainController implements Initializable {
     private void stateChangeListener(ObservableValue<? extends Object> observable, Object oldValue, Object newValue) {
         if (newValue == Worker.State.SUCCEEDED) {
               setEditorCode(code);
-              enableFirebug(webEngine, true);
+              enableFirebug(true);
         }
     }
 
@@ -100,15 +93,13 @@ public class MainController implements Initializable {
      * Enables Firebug for debugging a webEngine.
      * @param engine the webEngine for which debugging is to be enabled.
      */
-    private static void enableFirebug(WebEngine webEngine, boolean enabled) {
+    private void enableFirebug(boolean enabled) {
         if (enabled) {
-            try (InputStream inputStream = new FileInputStream(new File(
-                    "/home/andje22/Documents/repos/fxcodemirror/fxwebview/src/main/resources/firebug/firebug-script.js"))) {
-                final String script = streamToString(inputStream);
-                webEngine.executeScript(script);
-            } catch (IOException e) {
-                System.out.println(e.getMessage());
-            }
+            InputStream file = this.getClass().getResourceAsStream("/firebug/firebug-script.js");
+            final String script = streamToString(file);
+            webEngine.executeScript(script);
+
         }
     }
 }
+    

@@ -51,3 +51,4 @@ pom.xml.tag
 logs/statistics/
 
 logs/
+/fxwebview/src/main/resources/codemirror/public_html/node_modules/
