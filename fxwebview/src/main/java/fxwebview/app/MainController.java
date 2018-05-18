@@ -48,7 +48,7 @@ public class MainController implements Initializable {
     private void stateChangeListener(ObservableValue<? extends Object> observable, Object oldValue, Object newValue) {
         if (newValue == Worker.State.SUCCEEDED) {
               setEditorCode(code);
-              enableFirebug(true);
+              enableFirebug(false);
         }
     }
 
